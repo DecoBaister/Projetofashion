@@ -1,0 +1,142 @@
+body{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#principal{
+    width: 1024px;
+    margin: 0px auto;
+    background-size: cover;
+    
+}
+
+
+.header-top{
+    height: 50px;
+    background-color: #162028;    
+    position: relative;
+    width: 100%;
+}
+
+
+.logotipo{
+    margin: 7px 0 0 135px;
+}
+
+.header-nav{
+    position: absolute;
+    top: 0%;
+    right: 0;
+    display: inline-block;
+    height: 100%;
+    padding: 9px;
+}
+
+.header-nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li{
+    display: inline-block;
+    margin: 0 15px 0 0;
+    padding: 10px;
+}
+
+.header-nav a{
+    text-decoration: none;
+    color: #425564;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 5px;
+    transition: color 0.3s linear;
+}
+.header-nav a:hover{
+    color: white;
+}
+
+.portifolio{
+    text-align: center;
+    padding: 50px 100px;
+} 
+
+.portifolio h2{
+    font-size: 35px;
+    color: #252525;
+}
+
+.portifolio p{
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+}
+
+.gallery{
+    color: #555;
+    padding: 0 5px 0px 0px;
+    overflow: auto; 
+}
+
+.gallery-card{
+    width: 32%;
+    float: left;
+    text-align: center; 
+}
+.gallery-title{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight:bold;
+}
+
+.about{
+    background-color: #003d52 ;
+    padding: 100px;
+    color: white;
+    background: url(imagens/bg_detalhe.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:right bottom;
+    margin: 60px 60px;
+    
+}
+
+.about p{
+    line-height: 1.5;
+    width: auto;
+    text-align: center;
+}
+
+.about h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#contact{
+    margin: 50px 0;
+    
+}
+#contact address{
+    color: #143f52;
+    font-size: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.maps iframe{
+    width: 100%;
+    margin: auto;
+}
+.rodape{
+    background-color: #162028;
+    padding: 25px;
+    font-size: 12px;
+    color:#6f8597;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
